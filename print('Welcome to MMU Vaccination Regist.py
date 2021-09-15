@@ -1,0 +1,16 @@
+print('Welcome to MMU Vaccination Registration App')
+print('1.Sign up')
+print('2.User Login')
+print('3.Admin Login')
+print('4.Quit')
+
+n=int(input('What is your choice (1/2/3/4): '))
+print(f'Your choice is: {n}')
+if n==1:
+    name = input('Name: ')
+    age = input('Age: ')
+    phone_number = input('Phone number: ')
+    ID = input('IC number: ')
+    address = input('Address: ')
+    email_address = input('Email Address: ')
+    password = input('Password: ')
